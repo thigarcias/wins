@@ -38,3 +38,9 @@
   .contact-side .large-asterisk{font-size:70px}
   .quote-form{padding:20px}
 }
+
+/* Ícones vetoriais: o desenho não depende da fonte ou de emojis do dispositivo. */
+.icon{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex-shrink:0}
+.service-icon .icon{width:52px;height:52px;vertical-align:middle}
+.large-asterisk .icon,.approach-symbol .icon{width:1em;height:1em;vertical-align:middle;stroke-width:1}
+.button .icon,.nav-contact .icon,.card-bottom .icon,.caption-arrow .icon,.strip-arrow .icon{vertical-align:middle}
