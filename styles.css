@@ -44,3 +44,43 @@
 .service-icon .icon{width:52px;height:52px;vertical-align:middle}
 .large-asterisk .icon,.approach-symbol .icon{width:1em;height:1em;vertical-align:middle;stroke-width:1}
 .button .icon,.nav-contact .icon,.card-bottom .icon,.caption-arrow .icon,.strip-arrow .icon{vertical-align:middle}
+
+/* Identidade Wins: azul industrial, verde de destaque e cinzas neutros. */
+:root{--paper:#f3f6fa;--ink:#0b2a5b;--muted:#53647a;--line:#c0c6d0;--accent:#0066ff;--heading:'Montserrat','Manrope',sans-serif}
+::selection{background:#c9dcff;color:var(--ink)}
+.nav-contact,.mobile-menu summary{border-color:#c0c6d0}
+.button-dark:hover{background:#0066c8}
+.hero-visual{background:#0b2a5b}
+.image-topline{color:#f3f6fa}
+.small-square,.status-dot{background:#00c853}
+.caption-cross{color:#00c853}
+.image-caption small{color:#dce6f2}
+.scan-tag{background:#ebecf0;box-shadow:0 3px 15px #0b2a5b12}
+.service-card:hover{background:#e7eef8;border-color:#9ab4d6}
+.card-top>span{color:#53647a}
+.card-bottom a:hover{background:#dce9fa}
+.method,.quote-section{background:#e6edf6}
+.method-copy h2 span,.quote-copy h2 span,.faq-section h2 span{color:#0066c8}
+.method-copy>p:not(.eyebrow),.quote-copy>p:not(.eyebrow),.quote-help p{color:#53647a}
+.text-link,.step-number{border-color:#c0c6d0}
+.step-number>span{color:#0066c8}
+.about-panel-top,.about-panel-bottom{color:#c0c6d0}
+.approach{background:#0b2a5b;color:#f3f6fa}
+.approach h2 span{color:#9ac8ff}
+.approach-intro,.approach-list p,.approach-side>p:not(.eyebrow){color:#d0dbe9}
+.approach-list>div>span{color:#60e79a}
+.approach-list strong{color:#fff}
+.approach-symbol,.large-asterisk{color:#00c853}
+.approach-side .eyebrow{color:#c0d8f4}
+.contact .eyebrow,.contact-main>p:not(.eyebrow),.contact-side li{color:#d0dbe9}
+.contact h2 span{color:#9ac8ff}
+.contact-side p{color:#c0d8f4}
+.contact-side li:before{color:#00c853}
+.button-light:hover{background:#dce9fa}
+.footer-bottom{color:#53647a}
+.quote-form{background:#f3f6fa}
+.quote-form input,.quote-form select,.quote-form textarea{border-color:#c0c6d0}
+.quote-form input:focus,.quote-form select:focus,.quote-form textarea:focus{outline-color:#0066ff}
+.copy-button{border-color:#9ab4d6}
+.copy-button:hover{background:#e6edf6}
+@media(max-width:760px){.header .mobile-menu nav{box-shadow:0 10px 20px #0b2a5b20}}
